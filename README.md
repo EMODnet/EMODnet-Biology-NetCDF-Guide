@@ -2,7 +2,7 @@
 
 | Date | Version | Authors | History |
 | --- | --- | --- | --- |
-| 2022-11-01 | V 0 | Joana Beja, Frederic Leclerq, Salva Fernandez | Document created |
+| 2025-01-29 | V 0.1 | Joana Beja, Frederic Leclerq, Salva Fernandez | Document created |
 
 # Contents
 
@@ -169,7 +169,7 @@ library(RNetCDF)
 nc <- create.nc("./data/cf_comp", format = "netcdf4")
  
 # Global attributes
-att.put.nc(nc, variable = "NC_GLOBAL", name = "Conventions", type = "NC_CHAR", value = "CF-1.5")
+att.put.nc(nc, variable = "NC_GLOBAL", name = "Conventions", type = "NC_CHAR", value = "CF-1.12")
 att.put.nc(nc, variable = "NC_GLOBAL", name = "title", type = "NC_CHAR", value = "Example of CF compliant NetCDF file")
 att.put.nc(nc, variable = "NC_GLOBAL", name = "institution", type = "NC_CHAR", value = "Flanders Marine Institute (VLIZ)")
 att.put.nc(nc, variable = "NC_GLOBAL", name = "source", type = "NC_CHAR", value = "Bio-Oracle_2.1")
