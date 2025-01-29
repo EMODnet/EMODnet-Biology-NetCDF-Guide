@@ -227,7 +227,7 @@ NetCDF files for the purposes required by EMODnet Biology will have slight modif
                 :summary = "The project aims to produce comprehensive data product of the occurence and absence of (phyto)plankton species. As a basis, data from EMODnet Biology are used. The selection of relevant datasets is optimized in order to find all planktonic species, and exclude all species that are not planktonic. The occurences from EMODnet Biology were complemenented with absence data assuming fixed species lists within each dataset and year. The products are presented as maps of the distribution of the 20 most common species of (phyto)plankton in the Greater Baltic Sea." ;
                 :keywords = "Marine/Coastal, Baltic sea, Marine, Phytoplankton" ;
                 :Conventions = "CF-1.8" ;
-                :naming_authority = "emodnet-biology.eu" ;
+                :naming_authority = "https://emodnet.ec.europa.eu/en/biology" ;
                 :history = "https://github.com/EMODnet/EMODnet-Biology-Phytoplankton-Greater-BalticSea" ;
                 :source = "https://github.com/EMODnet/EMODnet-Biology-Phytoplankton-Greater-BalticSea" ;
                 :license = "CC-BY" ;
@@ -240,7 +240,7 @@ NetCDF files for the purposes required by EMODnet Biology will have slight modif
                 :project = "EMODnet-Biology" ;
                 :publisher_name = "EMODnet Biology Data Management Team" ;
                 :publisher_email = "bio@emodnet.eu" ;
-                :publisher_url = "www.emodnet-biology.eu" ;
+                :publisher_url = "https://emodnet.ec.europa.eu/en/biology" ;
                 :geospatial_lat_min = 52.0285714285714 ;
                 :geospatial_lat_max = 67.9714285714286 ;
                 :geospatial_lon_min = 9.09333333333333 ;
@@ -254,11 +254,10 @@ NetCDF files for the purposes required by EMODnet Biology will have slight modif
                 :date_issued = "2020-12-24" ;
                 :date_metadata_modified = "2021-03-08" ;
                 :product_version = "1" ;
-                :metadata_link = "https://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6618" ;
-                :references = "https://www.emodnet-biology.eu/blog/presenceabsence-maps-phytoplankton-greater-baltic-sea" ;
+                :metadata_link = "https://marineinfo.org/imis?module=dataset&dasid=6618" ;
                 :comment = "Uses attributes recommended by http://cfconventions.org" ;
-                :citation = "Daniela Figueroa, Markus Lindh, Luuk van der Heijden, Willem Stolte & Lisa Sundqvist (2020). Presence/Absence maps of phytoplankton in the Greater Baltic Sea." ;
-                :acknowledgement = "European Marine Observation Data Network (EMODnet) Biology project (EASME/EMFF/2017/1.3.1.2/02/SI2.789013), funded by the European Union under Regulation (EU) No 508/2014 of the European Parliament and of the Council of 15 May 2014 on the European Maritime and Fisheries Fund" ;
+                :citation = "Daniela Figueroa, Markus Lindh, Luuk van der Heijden, Willem Stolte & Lisa Sundqvist (2020). Presence/Absence maps of phytoplankton in the Greater Baltic Sea. Integrated data products created under the European Marine Observation Data Network (EMODnet) Biology project CINEA/EMFAF/2022/3.5.2/SI2.895681, funded by the by the European Union under Regulation (EU) No 508/2014 of the European Parliament and of the Council of 15 May 2014 on the European Maritime and Fisheries Fund" ;
+                :acknowledgement = "European Marine Observation Data Network (EMODnet) Biology project CINEA/EMFAF/2022/3.5.2/SI2.895681, funded by the European Union under Regulation (EU) No 508/2014 of the European Parliament and of the Council of 15 May 2014 on the European Maritime and Fisheries Fund" ;
 ```
 
 
